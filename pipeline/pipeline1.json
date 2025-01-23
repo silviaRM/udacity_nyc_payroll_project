@@ -190,7 +190,10 @@
 						"referenceName": "Dataflow Summary",
 						"type": "DataFlowReference",
 						"parameters": {
-							"dataflow_param_fiscalyear": "2020"
+							"dataflow_param_fiscalyear": {
+								"value": "@pipeline().parameters.dataflow_param_fiscalyear",
+								"type": "Expression"
+							}
 						}
 					},
 					"compute": {
@@ -201,6 +204,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"dataflow_param_fiscalyear": {
+				"type": "int"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2025-01-23T15:57:52Z"
 	},

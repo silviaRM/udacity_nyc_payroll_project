@@ -1,0 +1,9 @@
+{
+	"name": "nycparolladf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc7ce9c9-5d4c-496e-849e-0220151759b7",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
